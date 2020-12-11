@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+.add-todo{
+  margin-top:80px;
+  display:flex;
+  justify-content: center;
+}
+.add-todo input{
+width:400px;
+height:35px;
+border:1px solid rgb(17, 15, 15);
+border-radius:5px;
+}
+ button {
+  width:100px;
+  padding:12px;
+  background-color: rgb(81, 81, 231);
+  color:white;
+  border:1px solid white;
+  border-radius:5px;
+  margin-left:10px;
+}
+.todos-list{
+  margin-top:50px;
+}
+.todo-item {
+
+  display:flex;
+  justify-content: center;
+  padding-left:10px;
+}
+.todo-item button {
+ width:80px;
+ height:40px;
+}
+.todo-item p{
+  width:200px;
+}
